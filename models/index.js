@@ -6,7 +6,7 @@ User.hasMany(Post, {
 });
 
 Post.belongsTo(User, {
-  foreginKey: "user_id",
+  foreignKey: "user_id",
 });
 
 module.exports = { User };
